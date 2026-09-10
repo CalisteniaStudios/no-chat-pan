@@ -1,0 +1,26 @@
+{
+  "id": "no-chat-pan",
+  "title": "No Chat Pan",
+  "description": "Completely prevents Foundry chat bubbles from moving the camera while the module is active.",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Calistenia Studios",
+      "url": "https://github.com/CalisteniaStudios"
+    }
+  ],
+  "url": "https://github.com/CalisteniaStudios/no-chat-pan",
+  "manifest": "https://raw.githubusercontent.com/CalisteniaStudios/no-chat-pan/main/module.json",
+  "download": "https://github.com/CalisteniaStudios/no-chat-pan/releases/download/v1.0.0/no-chat-pan-1.0.0.zip",
+  "license": "LICENSE",
+  "readme": "README.md",
+  "bugs": "https://www.patreon.com/cw/CalisteniaStudios",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14"
+  },
+  "esmodules": [
+    "scripts/main.js"
+  ],
+  "protected": false
+}

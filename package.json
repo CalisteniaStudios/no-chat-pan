@@ -1,6 +1,6 @@
 {
   "name": "no-chat-pan",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "type": "module",
   "description": "A system-agnostic Foundry VTT module that disables chat camera panning.",

@@ -10,7 +10,8 @@ const packageData = JSON.parse(await readFile(path.join(root, "package.json"), "
 if (manifest.id !== "no-chat-pan") fail("Unexpected module id");
 if (manifest.version !== packageData.version) fail("Manifest and package versions differ");
 if (manifest.compatibility.minimum !== "13") fail("Foundry v13 minimum is required");
-if (manifest.compatibility.verified !== "14") fail("Foundry v14 verification is required");
+if (manifest.compatibility.verified !== "14.367") fail("Foundry v14.367 verification is required");
+if (manifest.compatibility.maximum !== "14") fail("Foundry v14 maximum is required");
 if (manifest.relationships?.requires?.length) fail("The module must have no dependencies");
 if (manifest.protected !== false) fail("The public module must not be protected");
 if (!manifest.manifest?.includes("/main/module.json")) fail("Public manifest URL is missing");

@@ -23,8 +23,10 @@ using its manifest URL or the ZIP attached to each GitHub release.
 
 ## License and support
 
-Copyright (c) 2026 Calistenia Studios. This module is available under the MIT
-License. See [LICENSE](LICENSE). Support and our other Foundry modules are available through
+Copyright (c) 2026 Calistenia Studios. The module is free to install and use,
+but selling, reselling, sublicensing, repackaging, mirroring, or redistributing
+it without prior written permission is prohibited. See [LICENSE](LICENSE).
+Support and our other Foundry modules are available through
 https://www.patreon.com/cw/CalisteniaStudios.
 
 Foundry Virtual Tabletop is a trademark of Foundry Gaming LLC. This module is

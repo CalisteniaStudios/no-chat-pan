@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.2 — 2026-09-14
+
+- Substitui a licença MIT pela licença de uso da Calistenia Studios sem revenda
+  nem redistribuição não autorizada.
+- Mantém o módulo gratuito para instalação, uso e modificações privadas.
+
 ## 1.0.1 — 2026-09-12
 
 - Mantém compatibilidade com Foundry VTT 13 e verifica o módulo no Foundry VTT 14.367.

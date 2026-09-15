@@ -13,7 +13,10 @@ if (manifest.compatibility.minimum !== "13") fail("Foundry v13 minimum is requir
 if (manifest.compatibility.verified !== "14.367") fail("Foundry v14.367 verification is required");
 if (manifest.compatibility.maximum !== "14") fail("Foundry v14 maximum is required");
 if (manifest.relationships?.requires?.length) fail("The module must have no dependencies");
-if (manifest.protected !== false) fail("The public module must not be protected");
+if (Object.hasOwn(manifest, "protected")) fail("The technical protected flag must not be used as a license");
+const license = await readFile(path.join(root, "LICENSE"), "utf8");
+if (!license.includes("SEM REVENDA")) fail("The Calistenia Studios no-resale license is missing");
+if (license.includes("MIT License")) fail("The previous MIT license is still present");
 if (!manifest.manifest?.includes("/main/module.json")) fail("Public manifest URL is missing");
 if (!manifest.download?.includes(`/v${manifest.version}/${manifest.id}-${manifest.version}.zip`)) {
   fail("Release download URL does not match the package version");
